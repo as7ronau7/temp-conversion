@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Conversion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="temp-card">
+        <h2>Current Temperature</h2>
+        <input type="text" placeholder="Enter a number" id="temperature-input">
+        <div id="conversion">
+            <p>Convert To?</p>
+             <label for=""><input type="radio" name="temperature" id="celsius-scale" value="celsius" checked> Celsius</label>
+             <label for=""><input type="radio" name="temperature" id="fahrenheit-scale" value="fahrenheit"> Fahrenheit</label>
+            <button>Submit</button>
+        </div>
+        
+        <p id="result"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
