@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#temp-card {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 25px;
+}
+
+#temperature-input {
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+#conversion {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    align-content: space-around;
+}
+
+#conversion p {
+    font-size: 22px;
+}
+
+#conversion button {
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#conversion button:hover {
+    background-color: #00ff00;
+    color: #fff;
+}
